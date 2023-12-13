@@ -11,7 +11,7 @@ contatos = ['+5511999999999', '+5511999999999'] # aqui estamos com uma lista cri
 while len(contatos) >= 1: # enquanto o tamanho da lista que esta na variavel contatos for maior ou igual a 1, execute tal função;
     # enviar mensagens
     pywhatkit.sendwhatmsg(contatos[0], 'Você pode tudo!', datetime.now().hour,datetime.now().minute + 2) # estamos chamando a biblioteca pywhatkit para acessar (whatmsg) acessando a variavel contatos começando  as mensagens a partir do primeiro item [0], definindo hora atual, e 2 minuto para todo o processamento, abrir navegador acessar whats_web e abrir a mensagem;
-    del contatos[0] # para evitar mensagens repetidas para os contatos estamos excluind eles conforme for enviando começa a partir do primeiro item[0]
+    del contatos[0] # para evitar mensagens repetidas para os contatos estamos excluindo eles conforme for enviando começa a partir do primeiro item[0]
     time.sleep(60) # tempo de 60 segundos de uma conversa para a outra;
     keyboard.press_and_release('ctrl + w') # estamos pedindo para realizar a ação control + w(fecha abas do navegador), assim evitando abrir uma pagina para cada conversa;
 
