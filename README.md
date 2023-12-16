@@ -9,7 +9,7 @@ Lembrando que para usar precisa de uma IDE que aceite python.
 
 siga as intruções cometadas no codigo;
 
-#Biblioteca pywhatkit
+# Biblioteca pywhatkit
 
 import pywhatkit
 
